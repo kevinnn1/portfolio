@@ -2,10 +2,11 @@ import React from 'react'
 import {TypeAnimation} from 'react-type-animation'
 import {FaLinkedin, FaGithub} from 'react-icons/fa'
 
+
 function Main() {
   return (
     <div id='main'>
-        <img className='w-screen h-screen object-cover object-left scale-x-[-1]' src="./src/assets/bg.png" alt="" />
+        <img className='w-screen h-screen object-cover object-left scale-x-[-1]' src="./bg.png" alt="" />
         <div className='w-full h-screen absolute top-0 left-0 bg-white/50'>
         <div className='max-w-[700px] m-auto h-full w-full flex flex-col justify-center lg:items-start items-center'>
             <h1 className='sm:text-5xl text-4xl font-bold text-gray-800'>I'm Kevin Grajeda</h1>
