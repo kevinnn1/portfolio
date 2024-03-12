@@ -49,6 +49,7 @@ export const Sidenav = () => {
             ''
           )
         }
+        
         <div className='md:block hidden fixed top-[25%] z-10'>
           <div className='flex flex-col'>
             <WideNavItem icon={AiOutlineHome} link="/portfolio/home" title="Home" />
