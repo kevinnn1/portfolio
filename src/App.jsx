@@ -23,7 +23,7 @@ function App() {
       <Sidenav />
       <div className="fixed bottom-4 right-4 z-10">
         <button className="bg-green-200 dark:bg-blue-200 p-4 rounded-3xl" onClick={handleThemeSwitch}>
-          Dark Mode
+          Dark Mode Switch
          </button>
       </div>
       <Routes>
