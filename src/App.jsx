@@ -1,20 +1,28 @@
-import Sidenav from './components/Sidenav'
-import Main from './components/Main'
-import Work from './components/Work'
-import Projects from './components/Projects'
-import Contact from './components/Contact'
+import React from 'react'
+import {Home} from "./pages/Home.jsx"
+import {Projects} from "./pages/Projects.jsx"
+import {Work} from "./pages/Work.jsx"
+import {Nopage} from "./pages/Nopage.jsx"
+import Sidenav from "./components/Sidenav.jsx"
+
+import { Routes, Route } from "react-router-dom"
 
 function App() {
-
   return (
+    
     <div>
       <Sidenav />
-      <Main />
-      <Work />
-      <Projects />
-      <Contact />
-      
+
+      <Routes>
+        <Route path ="/portfolio/" element={<Home />} />
+        <Route path ="/portfolio/home" element={<Home />} />
+        <Route path ="/portfolio/projects/" element={<Projects />} />
+        <Route path ="/portfolio/work/" element={<Work />} />
+        <Route path ="*" element={<Nopage />} />
+      </Routes>
+
     </div>
+    
   )
 }
 

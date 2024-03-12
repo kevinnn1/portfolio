@@ -28,8 +28,12 @@ function Main() {
             />
             </h2>
             <div className='flex justify-between pt-6 max-w-[100px] w-full'>
-              <FaLinkedin className='cursor-pointer' size={20}/>
-              <FaGithub className='cursor-pointer' size={20}/>
+              <a href='https://www.linkedin.com/in/kevin-grajeda-038039152/'>
+                <FaLinkedin  className='cursor-pointer' size={40}/>
+              </a>
+              <a href='https://github.com/kevinnn1'>
+                <FaGithub className='cursor-pointer' size={40}/>
+              </a>
             </div>
         </div>
         </div>
