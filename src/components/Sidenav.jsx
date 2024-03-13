@@ -49,23 +49,22 @@ export const Sidenav = () => {
             ''
           )
         }
-        
-        <div className='md:block hidden fixed top-[25%] z-10'>
-          <div className='flex flex-col'>
+
+        <div className='md:block hidden fixed  z-10'>
+          <div className='bg-bgSecondary dark:bg-bgSecondary-dark fixed flex  w-full shadow-lg shadow-gray-400 dark:shadow-gray-900 '>
             <WideNavItem icon={AiOutlineHome} link="/portfolio/home" title="Home" />
             <WideNavItem icon={GrProjects} link="/portfolio/work" title="Work/Skills" />
             <WideNavItem icon={AiOutlineProject} link="/portfolio/projects" title="Projects" />
             
-            <a href={Resume} without rel="noopener noreferrer" target="_blank" className='bg-buttonBg dark:bg-buttonBg-dark space-x-2 flex rounded-full shadow-lg shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
+            <a href={Resume} without rel="noopener noreferrer" target="_blank" className='bg-buttonBg dark:bg-buttonBg-dark text-textHead dark:text-textHead-dark space-x-2 flex  shadow-lg shadow-gray-400 dark:shadow-gray-900 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
               <BsPerson size={20}/ >
               <span>Resume</span>
             </a>
 
-            <a href="#contact" className='bg-buttonBg dark:bg-buttonBg-dark space-x-2 flex rounded-full shadow-lg shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
+            <a href="#contact" className='bg-buttonBg dark:bg-buttonBg-dark text-textHead dark:text-textHead-dark space-x-2 flex  shadow-lg shadow-gray-400 dark:shadow-gray-900 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
               <AiOutlineMail size={20}/ >
               <span>Contact</span>
             </a>
-
           </div>
         </div>
 

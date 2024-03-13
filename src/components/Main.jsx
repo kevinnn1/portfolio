@@ -6,11 +6,11 @@ import {FaLinkedin, FaGithub} from 'react-icons/fa'
 function Main() {
   return (
     <div id='main'>
-        <img className='w-screen h-screen object-cover object-left scale-x-[-1]' src="./bg.png" alt="" />
-        <div className='w-full h-screen absolute top-0 left-0 bg-white/50'>
+        <img className='w-screen h-screen object-cover object-left scale-x-[-1]' src="./bg.jpg" alt="" />
+        <div className='w-full h-screen absolute top-0 left-0 bg-white/50 dark:bg-black/50' >
         <div className='max-w-[700px] m-auto h-full w-full flex flex-col justify-center lg:items-start items-center'>
-            <h1 className='sm:text-5xl text-4xl font-bold text-gray-800'>I'm Kevin Grajeda</h1>
-            <h2 className='flex sm:text-3xl text-2xl pt-4 text-gray-800'>
+            <h1 className='sm:text-5xl text-4xl font-bold text-textHead dark:text-textHead-dark'>I'm Kevin Grajeda</h1>
+            <h2 className='flex sm:text-3xl text-2xl pt-4 text-textMain dark:text-textSub-dark'>
               I'm a
             <TypeAnimation
               sequence={[
@@ -27,11 +27,11 @@ function Main() {
               repeat={Infinity}
             />
             </h2>
-            <div className='flex justify-between pt-6 max-w-[100px] w-full'>
+            <div className='text-textHead dark:text-textHead-dark flex justify-between pt-6 max-w-[100px] w-full'>
               <a href='https://www.linkedin.com/in/kevin-grajeda-038039152/'>
-                <FaLinkedin  className='cursor-pointer' size={40}/>
+                <FaLinkedin  className='cursor-pointer' target='_blank' size={40}/>
               </a>
-              <a href='https://github.com/kevinnn1'>
+              <a href='https://github.com/kevinnn1'target='_blank'>
                 <FaGithub className='cursor-pointer' size={40}/>
               </a>
             </div>
