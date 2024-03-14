@@ -27,12 +27,12 @@ function Main() {
               repeat={Infinity}
             />
             </h2>
-            <div className='text-textHead dark:text-textHead-dark flex justify-between pt-6 max-w-[100px] w-full'>
-              <a href='https://www.linkedin.com/in/kevin-grajeda-038039152/'>
-                <FaLinkedin  className='cursor-pointer' target='_blank' size={40}/>
+            <div className='text-textHead dark:text-textHead-dark flex justify-between pt-6 max-w-[100px] w-full ease-in duration-300'>
+              <a href='https://www.linkedin.com/in/kevin-grajeda-038039152/' target='_blank'>
+                <FaLinkedin  className='cursor-pointer hover:text-textSub dark:hover:text-textSub-dark ' size={40}/>
               </a>
               <a href='https://github.com/kevinnn1'target='_blank'>
-                <FaGithub className='cursor-pointer' size={40}/>
+                <FaGithub className='cursor-pointer hover:text-textSub dark:hover:text-textSub-dark ' size={40}/>
               </a>
             </div>
         </div>

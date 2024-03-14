@@ -3,7 +3,7 @@ import { FaLaravel } from 'react-icons/fa'
 
 const Contact = () => {
   return (
-    <div id='contact' className='max-w-[1040px] m-auto md:pl-20 p-4 py-16'>
+    <div id='contact' className='max-w-[1040px] m-auto md:pl-20 p-4 py-20'>
         <h1 className='text-textHead dark:text-textHead-dark text-4xl font-bold text-left'>Contact</h1>
         <form action="" method='POST' encType='multipart/form-data'>
             <div className='grid md:grid-cols-2 gap-4 w-full py-2'>
