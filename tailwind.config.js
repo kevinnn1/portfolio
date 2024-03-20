@@ -70,7 +70,7 @@ export default {
           DEFAULT: '#333333',
           dark: '#FFFFFF',
         },
-      }
+      },
     },
     
   },

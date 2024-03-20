@@ -1,10 +1,11 @@
-import React from 'react'
-import { FaLaravel } from 'react-icons/fa'
-
+import {AiOutlineMail} from 'react-icons/ai'
 const Contact = () => {
   return (
     <div id='contact' className='max-w-[1040px] m-auto md:pl-20 p-4 py-20'>
-        <h1 className='text-textHead dark:text-textHead-dark text-4xl font-bold text-left'>Contact</h1>
+          <span className='md:justify-start text-textHead dark:text-textHead-dark flex justify-center items-center text-4xl font-bold text-center pb-12'>
+            <AiOutlineMail />
+            <h1 className='pl-4' >Contact</h1>
+        </span>
         <form action="" method='POST' encType='multipart/form-data'>
             <div className='grid md:grid-cols-2 gap-4 w-full py-2'>
                 <div className='flex flex-col'>
