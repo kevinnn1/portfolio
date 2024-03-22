@@ -7,7 +7,7 @@ export const NavItem = ({ icon: Icon, link, title, handleClick, mobile }) => {
   if (isPdf) {
     if(mobile){
         return (
-            <a href={link} target="_blank" rel="noopener noreferrer" className='w-[75%] flex justify-center rounded-full  bg-buttonBg dark:bg-buttonBg-dark text-textHead dark:text-textHead-dark shadow-lg shadow-gray-400 dark:shadow-gray-900 m-2 p-4 cursor-pointer hover:scale-110 ease-in-out duration-300'>
+            <a href={link} target="_blank" rel="noopener noreferrer" className='w-[75%] flex justify-center rounded-full  bg-buttonBg dark:bg-buttonBg-dark text-textHead dark:text-textHead-dark shadow-lg shadow-gray-400 dark:shadow-gray-900 m-2 p-4 cursor-pointer hover:bg-bgMain hover:dark:bg-bgMain-dark hover:scale-110 ease-in-out duration-300'>
               <Icon size={20} />
               <span className='pl-4'>{title}</span>
             </a>
@@ -25,7 +25,7 @@ export const NavItem = ({ icon: Icon, link, title, handleClick, mobile }) => {
   else {
     if(mobile) {
         return (
-            <Link to={link} onClick={handleClick} className='w-[75%] flex justify-center rounded-full  bg-buttonBg dark:bg-buttonBg-dark text-textHead dark:text-textHead-dark shadow-lg shadow-gray-400 dark:shadow-gray-900 m-2 p-4 cursor-pointer hover:scale-110 ease-in-out duration-300'>
+            <Link to={link} onClick={handleClick} className='w-[75%] flex justify-center rounded-full  bg-buttonBg dark:bg-buttonBg-dark text-textHead dark:text-textHead-dark shadow-lg shadow-gray-400 dark:shadow-gray-900 m-2 p-4 cursor-pointer hover:bg-bgMain hover:dark:bg-bgMain-dark hover:scale-110 ease-in-out duration-300'>
               <Icon size={20} />
               <span className='pl-4'>{title}</span>
             </Link>
