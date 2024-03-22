@@ -1,10 +1,6 @@
 import {ProjectItem}  from '../components/ProjectItem'
 import {GrProjects} from 'react-icons/gr'
 import birdGameImg from '../assets/birdgame.png'
-import mayaImg from '../assets/project1.jpg'
-import { Routes, Route, Navigate } from "react-router-dom";
-import { ProjectPage } from '../components/ProjectPage';
-import { HashLink as Link } from 'react-router-hash-link';
 
 export const Projects = () => {
   return (
@@ -18,7 +14,7 @@ export const Projects = () => {
       </p>
       <div className='grid sm:grid-cols-2 gap-12'>
         <ProjectItem img={birdGameImg} title='The Bird Game' description='A Unity game based on Flappy Bird' link='project1'/>
-        <ProjectItem img={mayaImg} title='Portfolio Website' description='The website you are looking at' link='project2'/>
+        <ProjectItem img={birdGameImg} title='Portfolio Website' description='The website you are looking at' link='project2'/>
         <ProjectItem img={birdGameImg} title='C++ Game Collection' description='A collection of games written in C++' link='project3'/>
         <ProjectItem img={birdGameImg} title='Project 4' description='Programming Tools' link='project4'/>
       </div>

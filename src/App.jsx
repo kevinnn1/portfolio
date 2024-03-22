@@ -1,6 +1,6 @@
 import { Home } from "./pages/Home.jsx";
 import { Projects } from "./pages/Projects.jsx";
-import { Work } from "./pages/Work.jsx";
+import { Experience } from "./pages/Experience.jsx";
 import { Nopage } from "./pages/Nopage.jsx";
 import { Sidenav } from "./components/Sidenav.jsx";
 import { Routes, Route } from "react-router-dom";
@@ -93,7 +93,7 @@ function App() {
           />
         </Route>
 
-        <Route path="/portfolio/work/" element={<Work />} />
+        <Route path="/portfolio/experience/" element={<Experience />} />
 
         <Route path="*" element={<Nopage />} />
       </Routes>

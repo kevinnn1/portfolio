@@ -1,4 +1,3 @@
-import { DiCode } from "react-icons/di";
 import PropTypes from 'prop-types'; 
 
 export const SkillsItem = ({icon: Icon, skillType, skillSet}) =>{

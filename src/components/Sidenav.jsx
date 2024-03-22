@@ -48,7 +48,7 @@ export const Sidenav = () => {
           nav ? (
             <div className='fixed w-full h-screen bg-bgMain/70 dark:bg-bgMain-dark/70 flex flex-col justify-center items-center z-20 '>
               <NavItem icon={AiOutlineHome} link="/portfolio/home#" title="Home" handleClick={handleNav} mobile={true} />
-              <NavItem icon={AiOutlineProject} link="/portfolio/work" title="Experience" handleClick={handleNav} mobile={true} />
+              <NavItem icon={AiOutlineProject} link="/portfolio/experience" title="Experience" handleClick={handleNav} mobile={true} />
               <NavItem icon={GrProjects} link="/portfolio/projects" title="Projects" handleClick={handleNav} mobile={true} />
               <NavItem icon={BsPerson} link={Resume} title="Resume" handleClick='' mobile={true} />
               <div className="fixed bottom-4 left-4 z-20">
@@ -71,7 +71,7 @@ export const Sidenav = () => {
             </h3>
             <div className='flex  ease-in-out duration-300'>
             <NavItem icon={AiOutlineHome} link="/portfolio/home#" title="Home"  mobile={false} />
-            <NavItem icon={AiOutlineProject} link="/portfolio/work" title="Experience"  mobile={false} />
+            <NavItem icon={AiOutlineProject} link="/portfolio/experience" title="Experience"  mobile={false} />
             <NavItem icon={GrProjects} link="/portfolio/projects" title="Projects"  mobile={false} />
             <NavItem icon={BsPerson} link={Resume} title="Resume" mobile={false} />
             </div>

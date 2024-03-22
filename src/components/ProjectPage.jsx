@@ -79,7 +79,7 @@ export const ProjectPage = ({icon: Icon, name, image, description, link, tools})
                 <p className="text-textSub dark:text-textSub-dark  pl-4 ">
                   {description}
                 </p>
-                <p className=" text-textHead flex dark:text-textHead-dark pl-4 pt-4">
+                <div className=" text-textHead flex dark:text-textHead-dark pl-4 pt-4">
                   <div className='flex flex-wrap'>
                   <div className='ml-1 pr-4'>
                         Utilizes:
@@ -88,7 +88,7 @@ export const ProjectPage = ({icon: Icon, name, image, description, link, tools})
                     <div className={`flex ${colorMap[item] || 'bg-buttonBg dark:bg-buttonBg-dark'} text-white rounded-xl mx-1 px-4 mb-2`} key={index}>{item}</div>
                     ))}
                   </div>
-                </p>
+                </div>
               </div>
             </div>
           </div>
