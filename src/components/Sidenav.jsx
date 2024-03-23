@@ -36,21 +36,21 @@ export const Sidenav = () => {
          <div className='md:hidden fixed  z-[99] '>
           <div className='bg-buttonBg dark:bg-buttonBg-dark fixed flex justify-between ease-in-out duration-300 w-full shadow-lg shadow-gray-400 dark:shadow-gray-900 items-center  '>
            
-            <h3 className='bg-buttonBg dark:bg-buttonBg-dark text-textHead dark:text-textHead-dark font-bold text-xl break-normal hover:scale-110 ease-in-out duration-300 m-2 p-2' >
+            <h1 className='bg-buttonBg dark:bg-buttonBg-dark text-textHead dark:text-textHead-dark font-bold text-sm break-normal hover:scale-110 ease-in-out duration-300 m-1 p-1' >
               <Link to='portfolio/home'>
               Kevin Grajeda
               </Link>
-            </h3>
+            </h1>
             </div>
             </div>
-        <AiOutlineMenu size={30} onClick={handleNav} className='text-textHead  dark:text-textHead-dark fixed top-4 right-4 z-[99] md:hidden cursor-pointer hover:scale-150 ease-in duration-300' / >
+        <AiOutlineMenu size={20} onClick={handleNav} className='text-textHead  dark:text-textHead-dark fixed top-2 right-4 z-[99] md:hidden cursor-pointer hover:scale-150 ease-in duration-300' / >
         {
           nav ? (
             <div className='fixed w-full h-screen bg-bgMain/70 dark:bg-bgMain-dark/70 flex flex-col justify-center items-center z-20 '>
               <NavItem icon={AiOutlineHome} link="/portfolio/home#" title="Home" handleClick={handleNav} mobile={true} />
               <NavItem icon={AiOutlineProject} link="/portfolio/experience" title="Experience" handleClick={handleNav} mobile={true} />
               <NavItem icon={GrProjects} link="/portfolio/projects" title="Projects" handleClick={handleNav} mobile={true} />
-              <NavItem icon={BsPerson} link={Resume} title="Resume" handleClick='' mobile={true} />
+              <NavItem icon={BsPerson} link={Resume} title="Resume" mobile={true} />
               <div className="fixed bottom-4 left-4 z-20">
                 {theme === "dark" ? <FaSun size={25} className='text-orange-400 cursor-pointer hover:scale-125 ease-in-out duration-300' onClick={handleThemeSwitch} /> : <FaMoon size={25} className='text-yellow-400 cursor-pointer hover:scale-125 ease-in-out duration-300' onClick={handleThemeSwitch}/>}
               </div>

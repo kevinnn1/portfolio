@@ -50,7 +50,7 @@ const colorMap = {
 export const ProjectPage = ({icon: Icon, name, image, description, link, tools}) => {
     return (
         <div className=" max-w-[1040px] m-auto md:pl-20 p-4 pt-24 md:justify-start">
-          <span className='md:justify-start text-textHead dark:text-textHead-dark flex justify-center items-center text-4xl font-bold text-center pb-12'>
+          <span className='md:justify-start text-textHead dark:text-textHead-dark flex justify-center items-center text-4xl font-bold text-center whitespace-nowrap pb-12'>
               <Icon />
               <h1 className='pl-4' >{name}</h1>
           </span>
@@ -102,4 +102,5 @@ ProjectPage.propTypes = {
     image: PropTypes.string.isRequired,
     description: PropTypes.string.isRequired,
     link: PropTypes.string.isRequired,
-}
+    tools: PropTypes.object.isRequired,
+};

@@ -47,7 +47,7 @@ function App() {
             element={
               <ProjectPage
                 icon={CgGames}
-                name="The Bird Game (WIP)"
+                name="The Bird Game"
                 image = {birdGameImg}
                 description="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia illo harum adipisci hic architecto excepturi vitae ex dolorum distinctio sed repellat blanditiis dolorem similique debitis quisquam quis, voluptate doloribus pariatur?"
                 link="https://github.com/kevinnn1/Flappy-Bird-With-Guns/tree/master"
