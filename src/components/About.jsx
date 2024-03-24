@@ -8,7 +8,7 @@ export const About = () => {
         <h1 className="pl-4">About Me</h1>
       </span>
       <p className="text-textSub text-center dark:text-textSub-dark py-4">
-        To Do:  fix image aspect ratios, custom domain, disallow google search results, add information on projects, add about me info, add something to the left/above of this
+        To Do:  fix image aspect ratios, custom domain, add information on projects, add about me info, add something to the left/above of this
       </p>
     </div>
   );
