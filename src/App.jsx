@@ -97,7 +97,7 @@ function App() {
         </Route>
 
         <Route path="/experience/" element={<Experience />} />
-        <Route path="/*" element={<Nopage />} />
+        <Route path="/404" element={<Nopage />} />
         <Route path="*" element={<Nopage />} />
       </Routes>
     </div>
