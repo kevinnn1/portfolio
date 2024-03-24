@@ -37,10 +37,10 @@ function App() {
       <Sidenav />
 
       <Routes>
-        <Route path="/portfolio/" element={<Home />} />
-        <Route path="/portfolio/home" element={<Home />} />
+      <Route path='/' element={<Home />} />
+        <Route path="/home" element={<Home />} />
 
-        <Route path="/portfolio/projects/">
+        <Route path="/projects/">
           <Route index element={<Projects />} />
           <Route
             path="project1"
@@ -96,8 +96,8 @@ function App() {
           />
         </Route>
 
-        <Route path="/portfolio/experience/" element={<Experience />} />
-        <Route path="/portfolio/*" element={<Nopage />} />
+        <Route path="/experience/" element={<Experience />} />
+        <Route path="/*" element={<Nopage />} />
         <Route path="*" element={<Nopage />} />
       </Routes>
     </div>
