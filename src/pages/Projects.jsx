@@ -13,7 +13,7 @@ export const Projects = () => {
           <h1 className='pl-4' >Projects</h1>
         </span>
       <p className='text-textSub dark:text-textSub-dark pb-8'>
-        A small collection of my projects that I worked on for college and for my personal development. 
+        A small collection of the projects that I worked on for college and for my personal development. 
       </p>
       <div className='grid sm:grid-cols-2 gap-12'>
         <ProjectItem img={birdGameImg} title='The Bird Game (WIP)' description='A Unity game based on Flappy Bird' link='project1'/>
