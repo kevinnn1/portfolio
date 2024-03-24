@@ -8,7 +8,7 @@ function Main() {
       <img className="w-screen h-screen  object-cover object-left" src="./bg.jpg" alt=""/>
       <div className="w-full h-screen absolute top-0 left-0 bg-white/50 dark:bg-black/50">
         <div className="max-w-[1440px] m-auto h-full  p-4 flex flex-col md:flex-row  justify-center  items-center">
-          <div className="flex flex-col md:items-start p-4 md:m-0 m-4 mt-12 whitespace-nowrap justify-start items-center bg-buttonBg/50 dark:bg-buttonBg-dark/50 rounded-xl">
+          <div className="flex flex-col md:items-start p-4 md:m-0 m-4  whitespace-nowrap justify-start items-center bg-buttonBg/50 dark:bg-buttonBg-dark/50 rounded-xl">
             <h1 className="sm:text-5xl text-4xl font-bold text-cardText dark:text-cardText-dark">
               Hello!
             </h1>

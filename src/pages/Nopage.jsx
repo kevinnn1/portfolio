@@ -14,7 +14,7 @@ export function Nopage() {
         How did you get here?
       </p>
       <div className="flex justify-center items-center">
-        <img src={dog} className="rounded-xl  h-112 w-96" />
+        <img src={dog} className="rounded-xl  h-88 w-72" />
       </div>
     </div>
   );
