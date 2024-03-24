@@ -28,7 +28,7 @@ const skillsData = [
     {
       icon: CgGames,
       skillType: "Video Game Development",
-      skillSet: "Unity, 2D game design, video game console modding, ROM hacking, emulation"
+      skillSet: "Unity, 2D game design, game console modding, ROM hacking, emulation"
     },
     {
       icon: FaCodeBranch,
