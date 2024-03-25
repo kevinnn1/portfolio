@@ -7,6 +7,9 @@ export default {
   darkMode: "class",
   theme: {
     extend: {
+      screens: {
+        lgxl : '1200px',
+      },
       colors: {
         transparent: 'transparent',
         current: 'currentColor',

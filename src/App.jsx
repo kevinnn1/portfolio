@@ -49,7 +49,7 @@ function App() {
                 icon={CgGames}
                 name="The Bird Game (WIP)"
                 image = {birdGameImg}
-                description="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia illo harum adipisci hic architecto excepturi vitae ex dolorum distinctio sed repellat blanditiis dolorem similique debitis quisquam quis, voluptate doloribus pariatur?"
+                description="The Bird Game is a work in progress game built using the Unity Game Engine. It is based on Flappy Bird. You try to get through to pipes to get the highest score possible. The bird can also shoot small and large laser. More functionality to be added soon!"
                 link="https://github.com/kevinnn1/Flappy-Bird-With-Guns/tree/master"
                 tools={toolsData[0]}
               />
@@ -62,7 +62,7 @@ function App() {
                 icon={MdWeb}
                 name="Portfolio Website"
                 image = {portfolioImg}
-                description="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia illo harum adipisci hic architecto excepturi vitae ex dolorum distinctio sed repellat blanditiis dolorem similique debitis quisquam quis, voluptate doloribus pariatur?"
+                description="It might be considered cheating to include your portfolio in your portfolio, but it's an important project! The project is built using React and Vite, uses Tailwind as the CSS as its framework, and hosted GitHub pages. Contains my experience and a small subset of my projects. Might be expanded to include mor or branched off to make other sites"
                 link="https://github.com/kevinnn1/portfolio"
                 tools={toolsData[1]}
               />
@@ -75,7 +75,7 @@ function App() {
                 icon={CgGames}
                 name="C++ Games Collection"
                 image = {cppGameImg}
-                description="description"
+                description="A collection of a few games built using only C++. Contains a game of Pong, a 2D platformer, and an 2D overhead game (think Legend of Zelda). "
                 link="https://github.com/kevinnn1/Game-Progrmming"
                 tools={toolsData[2]}
               />
@@ -88,7 +88,7 @@ function App() {
                 icon={CgGames}
                 name="AI Puzzle Solver"
                 image = {puzzleImg}
-                description="loris ipsum"
+                description="Solves a given sliding puzzle from an imput file. The input file contains the start and end states of the puzzle. The program returns each step taken and the number of moves. Utilizes the A* algorithm to implement a fast solution for the puzzle."
                 link="https://github.com/kevinnn1/AI"
                 tools={toolsData[3]}
               />

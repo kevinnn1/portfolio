@@ -3,12 +3,12 @@ import { FaLinkedin, FaGithub, FaEnvelope } from "react-icons/fa";
 
 export const Contact = () => {
   return (
-    <div className="max-w-full m-auto p-4 bg-buttonBg/50 dark:bg-buttonBg-dark/50 rounded-xl">
-      <span className="md:justify-start justify-center text-textHead dark:text-textHead-dark flex items-center text-4xl font-bold text-center">
+    <div className="p-4 first-line:rounded-xl">
+      <span className="text-textHead md:justify-start justify-center dark:text-textHead-dark flex items-center text-4xl font-bold text-center">
         <MdOutlineConnectWithoutContact />
         <h1 className="pl-4">Connect</h1>
       </span>
-      <p className="text-textSub dark:text-textSub-dark text-center py-4">
+      <p className="text-textSub dark:text-textSub-dark py-4">
         Feel free to email me, connect on LinkedIn, or view my GitHub!
       </p>
       <div className="text-textHead dark:text-textHead-dark flex flex-row gap-4 max-w-full justify-center  w-full ">

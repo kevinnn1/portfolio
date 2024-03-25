@@ -33,7 +33,7 @@ export const Sidenav = () => {
   return (
     
     <div>
-         <div className='md:hidden fixed  z-[99] '>
+         <div className='md:hidden fixed  z-[98] '>
           <div className='bg-buttonBg dark:bg-buttonBg-dark fixed flex justify-between ease-in-out duration-300 w-full shadow-lg shadow-gray-400 dark:shadow-gray-900 items-center  '>
            
             <h1 className='bg-buttonBg dark:bg-buttonBg-dark text-textHead dark:text-textHead-dark font-bold text-sm break-normal hover:scale-110 ease-in-out duration-300 m-1 p-1' >
