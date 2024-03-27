@@ -3,7 +3,7 @@ import dog from "../assets/404dog.jpeg";
 
 export function Nopage() {
   return (
-    <div className="max-w-[1040px] m-auto md:pl-20 p-4 pt-20">
+    <div className="max-w-[1040px] m-auto md:pl-20 p-4 py-24">
       <span className="md:justify-start text-textHead dark:text-textHead-dark flex justify-center items-center text-4xl font-bold text-center pb-8">
         <ImConfused />
         <h1 className="pl-4">

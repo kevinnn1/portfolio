@@ -50,7 +50,7 @@ const colorMap = {
 export const ProjectPage = ({icon: Icon, name, image, description, link, tools}) => {
     return (
         <div className=" max-w-[1040px] m-auto md:pl-20 p-4 pt-24 md:justify-start">
-          <span className='md:justify-start text-textHead dark:text-textHead-dark flex justify-center items-center text-4xl font-bold text-center pb-12'>
+          <span className='md:justify-start text-textHead dark:text-textHead-dark flex justify-center items-center md:text-4xl text-2xl font-bold text-center pb-12'>
               <Icon />
               <h1 className='pl-4' >{name}</h1>
           </span>
@@ -58,15 +58,11 @@ export const ProjectPage = ({icon: Icon, name, image, description, link, tools})
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               <div className="flex flex-col ">
               <div className='flex justify-center'>
-                <img
-                  src={image}
-                  alt="Project Image"
-                  className="rounded-xl  h-96 w-full  mb-4"
-                />
+                <img src={image} alt="Project Image" className="rounded-xl  h-full sm:h-96 w-full  mb-4 "/>
               </div>
                   <p className=" text-textHead dark:text-textHead-dark flex justify-center  items-center ">
                       <a href={link} target='_blank'>
-                          <span className='bg-buttonBg dark:bg-buttonBg-dark rounded-full px-4 flex items-center hover:scale-110 ease-in-out duration-300'>
+                          <span className='bg-buttonBg dark:bg-buttonBg-dark rounded-full px-4 mt-4 flex items-center hover:scale-110 ease-in-out duration-300'>
                               View on GitHub:
                               <FaGithub className='pl-4' size={40}/>
                           </span>

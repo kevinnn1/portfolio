@@ -24,13 +24,13 @@ export default {
           dark: '#3C3C3C',
         },
         textHead: {
-          light: '#333333',
-          DEFAULT: '#333333',
+          light: '#000000',
+          DEFAULT: '#000000',
           dark: '#FFFFFF',
         },
         textSub: {
-          light: '#666666',
-          DEFAULT: '#666666',
+          light: '#333333',
+          DEFAULT: '#333333',
           dark: '#CCCCCC',
         },
         buttonBg: {

@@ -41,19 +41,23 @@ export const Sidenav = () => {
               Kevin Grajeda
               </Link>
             </h1>
+
             </div>
+
             </div>
         <AiOutlineMenu size={20} onClick={handleNav} className='text-textHead  dark:text-textHead-dark fixed top-2 right-4 z-[99] md:hidden cursor-pointer hover:scale-150 ease-in duration-300' / >
         {
           nav ? (
-            <div className='fixed w-full h-screen bg-bgMain/70 dark:bg-bgMain-dark/70 flex flex-col justify-center items-center z-20 '>
+            <div className='fixed w-full h-screen bg-bgMain/40 dark:bg-bgMain-dark/40 flex flex-col justify-center items-center z-20 '>
+
               <NavItem icon={AiOutlineHome} link="/home" title="Home" handleClick={handleNav} mobile={true} />
               <NavItem icon={AiOutlineProject} link="/experience" title="Experience" handleClick={handleNav} mobile={true} />
               <NavItem icon={GrProjects} link="/projects" title="Projects" handleClick={handleNav} mobile={true} />
               <NavItem icon={BsPerson} link={Resume} title="Resume" mobile={true} />
-              <div className="fixed bottom-4 left-4 z-20">
+              <div className="absolute bottom-4 left-4 bg-buttonBg dark:bg-buttonBg-dark p-2 rounded-full">
                 {theme === "dark" ? <FaSun size={25} className='text-orange-400 cursor-pointer hover:scale-125 ease-in-out duration-300' onClick={handleThemeSwitch} /> : <FaMoon size={25} className='text-yellow-400 cursor-pointer hover:scale-125 ease-in-out duration-300' onClick={handleThemeSwitch}/>}
               </div>
+
             </div>
           )
           : (
@@ -65,7 +69,7 @@ export const Sidenav = () => {
           <div className='bg-buttonBg dark:bg-buttonBg-dark fixed flex justify-between ease-in-out duration-300 w-full shadow-lg shadow-gray-400 dark:shadow-gray-900 items-center px-4  '>
            
             <h3 className='bg-buttonBg dark:bg-buttonBg-dark text-textHead dark:text-textHead-dark font-bold text-xl break-normal hover:scale-110 ease-in-out duration-300' >
-            <Link to='portfolio/home'>
+            <Link to='/home'>
               Kevin Grajeda
               </Link>
             </h3>

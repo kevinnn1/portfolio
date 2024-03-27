@@ -8,7 +8,7 @@ export const About = () => {
         <h1 className="pl-4">About Me</h1>
       </span>
       <p className="text-textSub dark:text-textSub-dark">
-        To Do: custom domain, add about me info, 
+        To Do: add about me info, 
       </p>
     </div>
   );
