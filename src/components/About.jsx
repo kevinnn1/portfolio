@@ -8,7 +8,7 @@ export const About = () => {
         <h1 className="pl-4">About Me</h1>
       </span>
       <p className="text-textSub dark:text-textSub-dark pt-2">
-        I am a graduate of New York University's Tandon School of Engineering
+        I am a graduate of New York University&apos;s Tandon School of Engineering
         with a degree in Computer Science and a minor in Mathematics. During my
         time at NYU, I developed a large skillset in various fields of computer
         science, including AI, game development, and app development. I hope
