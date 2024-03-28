@@ -13,7 +13,7 @@ export const About = () => {
         time at NYU, I developed a large skillset in various fields of computer
         science, including AI, game development, and app development. I hope
         that the software I create for my career and personal projects can be
-        enjoyed by its users. In my free time, I enjoy watching soccer, playing
+        enjoyed by its users. During my free time, I enjoy watching soccer, playing
         video games, and reading.
       </p>
     </div>
