@@ -3,7 +3,6 @@ import { HashLink as Link } from "react-router-hash-link";
 
 export const NavItem = ({ icon: Icon, link, title, handleClick, mobile }) => {
   const isPdf = link.toLowerCase().endsWith(".pdf");
-
   if (isPdf) {
     if (mobile) {
       return (

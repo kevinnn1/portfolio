@@ -20,25 +20,5 @@
 }
 
 @layer components {
-    .SideNavIconWide{
-        --tw-space-x-reverse: 0;
-        margin-right: calc(0.5rem * var(--tw-space-x-reverse));
-        margin-left: calc(0.5rem * calc(1 - var(--tw-space-x-reverse)));    
-        display: flex;
-        justify-content: center;
-        border-radius: 9999px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), 0 4px 3px rgba(0, 0, 0, 0.1);
-        background-color: #f3f4f6;
-        margin: 0.5rem;
-        padding: 1rem;
-        cursor: pointer;
-        transition-property: transform;
-        transition-duration: 0.3s;
-        transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
-    }
-    .SideNavIconWide:hover {
-        transform: scale(1.10);
-    }
-        /*space-x-2 flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300*/
 
 }

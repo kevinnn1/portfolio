@@ -21,7 +21,7 @@ export const Education = () => {
         </div>
         <div className="flex  selection:text-textSub dark:text-textSub-dark mb-2 m-1 px-2 font-normal   items-center justify-start text-xs md:text-sm">
           <ul className="list-disc">
-            <li className="text-textSub dark:text-textSub-dark text-sm m-1 px-2">
+            <li className="text-textSub dark:text-textSub-dark text-sm m-1 px-2 ">
               Relevant Coursework: Software Engineering, Machine Learning,
               Artificial Intelligence, Linear Algebra, Object Oriented
               Programming

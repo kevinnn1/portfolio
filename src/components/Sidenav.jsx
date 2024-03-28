@@ -54,7 +54,7 @@ export const Sidenav = () => {
               <NavItem icon={AiOutlineProject} link="/experience" title="Experience" handleClick={handleNav} mobile={true} />
               <NavItem icon={GrProjects} link="/projects" title="Projects" handleClick={handleNav} mobile={true} />
               <NavItem icon={BsPerson} link={Resume} title="Resume" mobile={true} />
-              <div className="absolute bottom-4 left-4 bg-buttonBg dark:bg-buttonBg-dark p-2 rounded-full">
+              <div className="bg-buttonBg dark:bg-buttonBg-dark p-2 m-2 rounded-full">
                 {theme === "dark" ? <FaSun size={25} className='text-orange-400 cursor-pointer hover:scale-125 ease-in-out duration-300' onClick={handleThemeSwitch} /> : <FaMoon size={25} className='text-yellow-400 cursor-pointer hover:scale-125 ease-in-out duration-300' onClick={handleThemeSwitch}/>}
               </div>
 

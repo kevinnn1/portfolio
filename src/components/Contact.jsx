@@ -8,17 +8,18 @@ export const Contact = () => {
         <MdOutlineConnectWithoutContact />
         <h1 className="pl-4">Connect</h1>
       </span>
-      <p className="text-textSub dark:text-textSub-dark py-4">
-        Feel free to email me, connect on LinkedIn, or view my GitHub!
+      <p className="text-textSub dark:text-textSub-dark pt-2">
+        Have any questions? Feel free to email me, connect on LinkedIn, or view
+        my GitHub! Hope to get in contact soon!
       </p>
-      <div className="text-textHead dark:text-textHead-dark flex flex-row gap-4 max-w-full justify-center  w-full ">
-        <a href="https://www.linkedin.com/in/kevin-grajeda-038039152/" target="_blank">
+      <div className="text-textHead dark:text-textHead-dark flex flex-row gap-4 max-w-full md:justify-start justify-center pt-4  w-full ">
+        <a href="https://www.linkedin.com/in/kevin-grajeda-038039152/">
           <FaLinkedin className="cursor-pointer hover:text-textSub dark:hover:text-textSub-dark hover:scale-110 ease-in duration-300" size={40}/>
         </a>
         <a href="https://github.com/kevinnn1" target="_blank">
           <FaGithub className="cursor-pointer hover:text-textSub dark:hover:text-textSub-dark hover:scale-110 ease-in duration-300" size={40}/>
         </a>
-        <a href="mailto:kagrajeda1@gmail.com" target="_blank"> 
+        <a href="mailto:kagrajeda1@gmail.com" target="_blank">
           <FaEnvelope className="cursor-pointer hover:text-textSub dark:hover:text-textSub-dark hover:scale-110 ease-in duration-300" size={40}/>
         </a>
       </div>

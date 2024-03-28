@@ -68,7 +68,6 @@ export const ProjectPage = ({icon: Icon, name, image, description, link, tools})
                           </span>
                       </a>
                   </p>
-
               </div>
               <div className="flex flex-col">
 
